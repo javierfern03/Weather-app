@@ -17,7 +17,6 @@ function App() {
     })
   }
 
-
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(succes)
   }, [])
